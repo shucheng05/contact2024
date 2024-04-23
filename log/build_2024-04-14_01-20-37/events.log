@@ -1,0 +1,168 @@
+[0.000000] (-) TimerEvent: {}
+[0.000157] (contact) JobQueued: {'identifier': 'contact', 'dependencies': OrderedDict()}
+[0.000517] (contact) JobStarted: {'identifier': 'contact'}
+[0.054526] (contact) JobProgress: {'identifier': 'contact', 'progress': 'cmake'}
+[0.055583] (contact) JobProgress: {'identifier': 'contact', 'progress': 'build'}
+[0.056280] (contact) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shucheng/contact/build/contact', '--', '-j20', '-l20'], 'cwd': '/home/shucheng/contact/build/contact', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shucheng'), ('GIT_ASKPASS', '/home/shucheng/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shucheng/GMaster_project/install/vision_msgs/lib:/home/shucheng/GMaster_project/install/gary_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/shucheng'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-17dee98d-70c3-40e4-8a91-6fb61b36c8d1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/shucheng/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/shucheng/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shucheng/GMaster_project/install:/home/shucheng/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shucheng'), ('NAME', 'localhost'), ('WSL_INTEROP', '/run/WSL/236558_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shucheng/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/System32/HWAudioDriver:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/19773/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/19773/.dotnet/tools:/mnt/d/脢脫戮玫脳茅cmake脧卯脛驴/bin:/mnt/c/Users/19773/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/cmake-3.17.0-rc3-win64-x64/cmake-3.17.0-rc3-win64-x64/bin:/mnt/c/Program Files/mingw64/mingw64/bin:/mnt/c/texlive/2023/b:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0d85433207.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/shucheng/GMaster_project/install/vision_msgs:/home/shucheng/GMaster_project/install/project1:/home/shucheng/GMaster_project/install/gary_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/shucheng/contact/build/contact'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shucheng/GMaster_project/install/vision_msgs/local/lib/python3.10/dist-packages:/home/shucheng/GMaster_project/install/gary_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shucheng/GMaster_project/install/vision_msgs:/home/shucheng/GMaster_project/install/project1:/home/shucheng/GMaster_project/install/gary_msgs:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[0.107815] (-) TimerEvent: {}
+[0.143433] (contact) StdoutLine: {'line': b'[ 50%] Built target serial\n'}
+[0.161358] (contact) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target contact\x1b[0m\n'}
+[0.179037] (contact) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/contact.dir/src/CommPort.cpp.o\x1b[0m\n'}
+[0.179533] (contact) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/contact.dir/src/ContactNode.cpp.o\x1b[0m\n'}
+[0.207994] (-) TimerEvent: {}
+[0.308420] (-) TimerEvent: {}
+[0.408843] (-) TimerEvent: {}
+[0.509247] (-) TimerEvent: {}
+[0.609683] (-) TimerEvent: {}
+[0.710179] (-) TimerEvent: {}
+[0.810603] (-) TimerEvent: {}
+[0.813677] (contact) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shucheng/contact/src/CommPort.cpp:1\x1b[m\x1b[K:\n'}
+[0.813975] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shucheng/contact/include/CommPort.h:43:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktypedef\x1b[m\x1b[K\xe2\x80\x99 was ignored in this declaration\n'}
+[0.814099] (contact) StderrLine: {'line': b'   43 |     \x1b[01;35m\x1b[Ktypedef\x1b[m\x1b[K struct ProjectileRx\n'}
+[0.814167] (contact) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.815716] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shucheng/contact/include/CommPort.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kfloat* CommPort::getQuaternion()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.815897] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shucheng/contact/include/CommPort.h:102:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[KCommPort::ProjectileRx\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member\x07-Waddress-of-packed-member\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.815985] (contact) StderrLine: {'line': b'  102 |         return \x1b[01;35m\x1b[Krx_struct_.q\x1b[m\x1b[K;\n'}
+[0.816051] (contact) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[0.816942] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shucheng/contact/src/CommPort.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCommPort::CommPort()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.817087] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shucheng/contact/src/CommPort.cpp:5:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids converting a string constant to \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings\x07-Wwrite-strings\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.817161] (contact) StderrLine: {'line': b'    5 |     char *device = \x1b[01;35m\x1b[K"/dev/ttyACM0"\x1b[m\x1b[K;\n'}
+[0.817214] (contact) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.910770] (-) TimerEvent: {}
+[1.011212] (-) TimerEvent: {}
+[1.111653] (-) TimerEvent: {}
+[1.212122] (-) TimerEvent: {}
+[1.312596] (-) TimerEvent: {}
+[1.413057] (-) TimerEvent: {}
+[1.513493] (-) TimerEvent: {}
+[1.613882] (-) TimerEvent: {}
+[1.714383] (-) TimerEvent: {}
+[1.814897] (-) TimerEvent: {}
+[1.915398] (-) TimerEvent: {}
+[2.015935] (-) TimerEvent: {}
+[2.116402] (-) TimerEvent: {}
+[2.216842] (-) TimerEvent: {}
+[2.317252] (-) TimerEvent: {}
+[2.417702] (-) TimerEvent: {}
+[2.456541] (contact) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/shucheng/contact/src/ContactNode.cpp:3\x1b[m\x1b[K:\n'}
+[2.456790] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shucheng/contact/include/CommPort.h:43:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktypedef\x1b[m\x1b[K\xe2\x80\x99 was ignored in this declaration\n'}
+[2.456850] (contact) StderrLine: {'line': b'   43 |     \x1b[01;35m\x1b[Ktypedef\x1b[m\x1b[K struct ProjectileRx\n'}
+[2.456889] (contact) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.458779] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shucheng/contact/include/CommPort.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kfloat* CommPort::getQuaternion()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.458952] (contact) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shucheng/contact/include/CommPort.h:102:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktaking address of packed member of \xe2\x80\x98\x1b[01m\x1b[KCommPort::ProjectileRx\x1b[m\x1b[K\xe2\x80\x99 may result in an unaligned pointer value [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member\x07-Waddress-of-packed-member\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.458997] (contact) StderrLine: {'line': b'  102 |         return \x1b[01;35m\x1b[Krx_struct_.q\x1b[m\x1b[K;\n'}
+[2.459033] (contact) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[2.518031] (-) TimerEvent: {}
+[2.618660] (-) TimerEvent: {}
+[2.719287] (-) TimerEvent: {}
+[2.819826] (-) TimerEvent: {}
+[2.920241] (-) TimerEvent: {}
+[3.020662] (-) TimerEvent: {}
+[3.121704] (-) TimerEvent: {}
+[3.222104] (-) TimerEvent: {}
+[3.322815] (-) TimerEvent: {}
+[3.423223] (-) TimerEvent: {}
+[3.523704] (-) TimerEvent: {}
+[3.624281] (-) TimerEvent: {}
+[3.724720] (-) TimerEvent: {}
+[3.825147] (-) TimerEvent: {}
+[3.925615] (-) TimerEvent: {}
+[4.026084] (-) TimerEvent: {}
+[4.126543] (-) TimerEvent: {}
+[4.227003] (-) TimerEvent: {}
+[4.327495] (-) TimerEvent: {}
+[4.428427] (-) TimerEvent: {}
+[4.528828] (-) TimerEvent: {}
+[4.629291] (-) TimerEvent: {}
+[4.729766] (-) TimerEvent: {}
+[4.830349] (-) TimerEvent: {}
+[4.930860] (-) TimerEvent: {}
+[5.031374] (-) TimerEvent: {}
+[5.132023] (-) TimerEvent: {}
+[5.232622] (-) TimerEvent: {}
+[5.333049] (-) TimerEvent: {}
+[5.433692] (-) TimerEvent: {}
+[5.534154] (-) TimerEvent: {}
+[5.634566] (-) TimerEvent: {}
+[5.735015] (-) TimerEvent: {}
+[5.835484] (-) TimerEvent: {}
+[5.935894] (-) TimerEvent: {}
+[6.036390] (-) TimerEvent: {}
+[6.136842] (-) TimerEvent: {}
+[6.237436] (-) TimerEvent: {}
+[6.337951] (-) TimerEvent: {}
+[6.438318] (-) TimerEvent: {}
+[6.538716] (-) TimerEvent: {}
+[6.639127] (-) TimerEvent: {}
+[6.739546] (-) TimerEvent: {}
+[6.839967] (-) TimerEvent: {}
+[6.940457] (-) TimerEvent: {}
+[7.040849] (-) TimerEvent: {}
+[7.141224] (-) TimerEvent: {}
+[7.241759] (-) TimerEvent: {}
+[7.342196] (-) TimerEvent: {}
+[7.442702] (-) TimerEvent: {}
+[7.543234] (-) TimerEvent: {}
+[7.643644] (-) TimerEvent: {}
+[7.744204] (-) TimerEvent: {}
+[7.844615] (-) TimerEvent: {}
+[7.945060] (-) TimerEvent: {}
+[8.045561] (-) TimerEvent: {}
+[8.146004] (-) TimerEvent: {}
+[8.246449] (-) TimerEvent: {}
+[8.346948] (-) TimerEvent: {}
+[8.447433] (-) TimerEvent: {}
+[8.548024] (-) TimerEvent: {}
+[8.648636] (-) TimerEvent: {}
+[8.749225] (-) TimerEvent: {}
+[8.850208] (-) TimerEvent: {}
+[8.950855] (-) TimerEvent: {}
+[9.051388] (-) TimerEvent: {}
+[9.151771] (-) TimerEvent: {}
+[9.252168] (-) TimerEvent: {}
+[9.352548] (-) TimerEvent: {}
+[9.453072] (-) TimerEvent: {}
+[9.553457] (-) TimerEvent: {}
+[9.653881] (-) TimerEvent: {}
+[9.754427] (-) TimerEvent: {}
+[9.854985] (-) TimerEvent: {}
+[9.955464] (-) TimerEvent: {}
+[10.056045] (-) TimerEvent: {}
+[10.156457] (-) TimerEvent: {}
+[10.257000] (-) TimerEvent: {}
+[10.357420] (-) TimerEvent: {}
+[10.457912] (-) TimerEvent: {}
+[10.558252] (-) TimerEvent: {}
+[10.601273] (contact) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable contact\x1b[0m\n'}
+[10.658385] (-) TimerEvent: {}
+[10.764511] (-) TimerEvent: {}
+[10.865005] (-) TimerEvent: {}
+[10.965426] (-) TimerEvent: {}
+[11.066038] (-) TimerEvent: {}
+[11.128404] (contact) StdoutLine: {'line': b'[100%] Built target contact\n'}
+[11.138769] (contact) CommandEnded: {'returncode': 0}
+[11.166130] (-) TimerEvent: {}
+[11.167126] (contact) JobProgress: {'identifier': 'contact', 'progress': 'install'}
+[11.174322] (contact) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shucheng/contact/build/contact'], 'cwd': '/home/shucheng/contact/build/contact', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shucheng'), ('GIT_ASKPASS', '/home/shucheng/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shucheng/GMaster_project/install/vision_msgs/lib:/home/shucheng/GMaster_project/install/gary_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/shucheng'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-17dee98d-70c3-40e4-8a91-6fb61b36c8d1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/shucheng/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/shucheng/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shucheng/GMaster_project/install:/home/shucheng/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shucheng'), ('NAME', 'localhost'), ('WSL_INTEROP', '/run/WSL/236558_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/shucheng/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/System32/HWAudioDriver:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/19773/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/19773/.dotnet/tools:/mnt/d/脢脫戮玫脳茅cmake脧卯脛驴/bin:/mnt/c/Users/19773/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/cmake-3.17.0-rc3-win64-x64/cmake-3.17.0-rc3-win64-x64/bin:/mnt/c/Program Files/mingw64/mingw64/bin:/mnt/c/texlive/2023/b:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-0d85433207.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/shucheng/GMaster_project/install/vision_msgs:/home/shucheng/GMaster_project/install/project1:/home/shucheng/GMaster_project/install/gary_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/shucheng/contact/build/contact'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shucheng/GMaster_project/install/vision_msgs/local/lib/python3.10/dist-packages:/home/shucheng/GMaster_project/install/gary_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shucheng/GMaster_project/install/vision_msgs:/home/shucheng/GMaster_project/install/project1:/home/shucheng/GMaster_project/install/gary_msgs:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[11.181098] (contact) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.181647] (contact) StdoutLine: {'line': b'-- Installing: /home/shucheng/contact/install/contact/lib/contact/contact\n'}
+[11.186018] (contact) StdoutLine: {'line': b'-- Set runtime path of "/home/shucheng/contact/install/contact/lib/contact/contact" to ""\n'}
+[11.186215] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/shucheng/contact/install/contact/share/ament_index/resource_index/package_run_dependencies/contact\n'}
+[11.186282] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/shucheng/contact/install/contact/share/ament_index/resource_index/parent_prefix_path/contact\n'}
+[11.186449] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/environment/ament_prefix_path.sh\n'}
+[11.186632] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/environment/ament_prefix_path.dsv\n'}
+[11.186734] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/environment/path.sh\n'}
+[11.186840] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/environment/path.dsv\n'}
+[11.186980] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/local_setup.bash\n'}
+[11.187019] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/local_setup.sh\n'}
+[11.187054] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/local_setup.zsh\n'}
+[11.187088] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/local_setup.dsv\n'}
+[11.187121] (contact) StdoutLine: {'line': b'-- Installing: /home/shucheng/contact/install/contact/share/contact/package.dsv\n'}
+[11.187157] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/shucheng/contact/install/contact/share/ament_index/resource_index/packages/contact\n'}
+[11.187193] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/cmake/contactConfig.cmake\n'}
+[11.187229] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/cmake/contactConfig-version.cmake\n'}
+[11.187262] (contact) StdoutLine: {'line': b'-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/package.xml\n'}
+[11.188626] (contact) CommandEnded: {'returncode': 0}
+[11.267026] (-) TimerEvent: {}
+[11.299456] (contact) JobEnded: {'identifier': 'contact', 'rc': 0}
+[11.300744] (-) EventReactorShutdown: {}

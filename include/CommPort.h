@@ -37,10 +37,13 @@ struct TxPacket {
 
 class CommPort {
 private:
+
+public:
+
     typedef struct ProjectileRx
     {
         uint8_t header;
-        float q[4];
+        float q[3];
         uint8_t vision_mode;
         uint8_t shoot_remote;
         uint8_t armor_color;
@@ -67,7 +70,6 @@ private:
     std::vector<serial::PortInfo> serial_port_info_;
     std::string device_desc_;
 
-public:
 
     enum SERIAL_MODE {
         TX_SYNC,
@@ -96,6 +98,9 @@ public:
     
     float get_Yaw();
 
+    float* getQuaternion() {
+        return rx_struct_.q;
+    }
 };
 
 

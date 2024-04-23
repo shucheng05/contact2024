@@ -1,0 +1,20 @@
+In file included from [01m[K/home/shucheng/contact/src/CommPort.cpp:1[m[K:
+[01m[K/home/shucheng/contact/include/CommPort.h:43:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   43 |     [01;35m[Ktypedef[m[K struct ProjectileRx
+      |     [01;35m[K^~~~~~~[m[K
+[01m[K/home/shucheng/contact/include/CommPort.h:[m[K In member function ‘[01m[Kfloat* CommPort::getQuaternion()[m[K’:
+[01m[K/home/shucheng/contact/include/CommPort.h:102:27:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[KCommPort::ProjectileRx[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+  102 |         return [01;35m[Krx_struct_.q[m[K;
+      |                [01;35m[K~~~~~~~~~~~^[m[K
+[01m[K/home/shucheng/contact/src/CommPort.cpp:[m[K In constructor ‘[01m[KCommPort::CommPort()[m[K’:
+[01m[K/home/shucheng/contact/src/CommPort.cpp:5:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+    5 |     char *device = [01;35m[K"/dev/ttyACM0"[m[K;
+      |                    [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/shucheng/contact/src/ContactNode.cpp:3[m[K:
+[01m[K/home/shucheng/contact/include/CommPort.h:43:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   43 |     [01;35m[Ktypedef[m[K struct ProjectileRx
+      |     [01;35m[K^~~~~~~[m[K
+[01m[K/home/shucheng/contact/include/CommPort.h:[m[K In member function ‘[01m[Kfloat* CommPort::getQuaternion()[m[K’:
+[01m[K/home/shucheng/contact/include/CommPort.h:102:27:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[KCommPort::ProjectileRx[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+  102 |         return [01;35m[Krx_struct_.q[m[K;
+      |                [01;35m[K~~~~~~~~~~~^[m[K

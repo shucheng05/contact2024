@@ -1,0 +1,44 @@
+[ 50%] Built target serial
+[35m[1mConsolidate compiler generated dependencies of target contact[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/contact.dir/src/CommPort.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/contact.dir/src/ContactNode.cpp.o[0m
+In file included from [01m[K/home/shucheng/contact/src/CommPort.cpp:1[m[K:
+[01m[K/home/shucheng/contact/include/CommPort.h:43:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   43 |     [01;35m[Ktypedef[m[K struct ProjectileRx
+      |     [01;35m[K^~~~~~~[m[K
+[01m[K/home/shucheng/contact/include/CommPort.h:[m[K In member function ‘[01m[Kfloat* CommPort::getQuaternion()[m[K’:
+[01m[K/home/shucheng/contact/include/CommPort.h:102:27:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[KCommPort::ProjectileRx[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+  102 |         return [01;35m[Krx_struct_.q[m[K;
+      |                [01;35m[K~~~~~~~~~~~^[m[K
+[01m[K/home/shucheng/contact/src/CommPort.cpp:[m[K In constructor ‘[01m[KCommPort::CommPort()[m[K’:
+[01m[K/home/shucheng/contact/src/CommPort.cpp:5:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+    5 |     char *device = [01;35m[K"/dev/ttyACM0"[m[K;
+      |                    [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/shucheng/contact/src/ContactNode.cpp:3[m[K:
+[01m[K/home/shucheng/contact/include/CommPort.h:43:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
+   43 |     [01;35m[Ktypedef[m[K struct ProjectileRx
+      |     [01;35m[K^~~~~~~[m[K
+[01m[K/home/shucheng/contact/include/CommPort.h:[m[K In member function ‘[01m[Kfloat* CommPort::getQuaternion()[m[K’:
+[01m[K/home/shucheng/contact/include/CommPort.h:102:27:[m[K [01;35m[Kwarning: [m[Ktaking address of packed member of ‘[01m[KCommPort::ProjectileRx[m[K’ may result in an unaligned pointer value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-of-packed-member-Waddress-of-packed-member]8;;[m[K]
+  102 |         return [01;35m[Krx_struct_.q[m[K;
+      |                [01;35m[K~~~~~~~~~~~^[m[K
+[ 87%] [32m[1mLinking CXX executable contact[0m
+[100%] Built target contact
+-- Install configuration: ""
+-- Installing: /home/shucheng/contact/install/contact/lib/contact/contact
+-- Set runtime path of "/home/shucheng/contact/install/contact/lib/contact/contact" to ""
+-- Up-to-date: /home/shucheng/contact/install/contact/share/ament_index/resource_index/package_run_dependencies/contact
+-- Up-to-date: /home/shucheng/contact/install/contact/share/ament_index/resource_index/parent_prefix_path/contact
+-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/environment/path.sh
+-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/environment/path.dsv
+-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/local_setup.bash
+-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/local_setup.sh
+-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/local_setup.zsh
+-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/local_setup.dsv
+-- Installing: /home/shucheng/contact/install/contact/share/contact/package.dsv
+-- Up-to-date: /home/shucheng/contact/install/contact/share/ament_index/resource_index/packages/contact
+-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/cmake/contactConfig.cmake
+-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/cmake/contactConfig-version.cmake
+-- Up-to-date: /home/shucheng/contact/install/contact/share/contact/package.xml
