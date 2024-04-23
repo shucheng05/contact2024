@@ -1,4 +1,0 @@
-In file included from [01m[K/home/shucheng/contact/src/ContactNode.cpp:3[m[K:
-[01m[K/home/shucheng/contact/include/CommPort.h:43:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktypedef[m[K’ was ignored in this declaration
-   43 |     [01;35m[Ktypedef[m[K struct ProjectileRx
-      |     [01;35m[K^~~~~~~[m[K

@@ -1,4 +1,0 @@
-Invoking command in '/home/shucheng/contact/build/contact': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shucheng/contact -DCMAKE_INSTALL_PREFIX=/home/shucheng/contact/install/contact
-Invoked command in '/home/shucheng/contact/build/contact' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shucheng/contact -DCMAKE_INSTALL_PREFIX=/home/shucheng/contact/install/contact
-Invoking command in '/home/shucheng/contact/build/contact': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shucheng/contact/build/contact -- -j20 -l20
-Invoked command in '/home/shucheng/contact/build/contact' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shucheng/contact/build/contact -- -j20 -l20

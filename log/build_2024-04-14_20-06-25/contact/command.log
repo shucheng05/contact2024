@@ -1,4 +1,0 @@
-Invoking command in '/home/shucheng/contact/build/contact': /usr/bin/cmake --build /home/shucheng/contact/build/contact -- -j20 -l20
-Invoked command in '/home/shucheng/contact/build/contact' returned '0': /usr/bin/cmake --build /home/shucheng/contact/build/contact -- -j20 -l20
-Invoking command in '/home/shucheng/contact/build/contact': /usr/bin/cmake --install /home/shucheng/contact/build/contact
-Invoked command in '/home/shucheng/contact/build/contact' returned '0': /usr/bin/cmake --install /home/shucheng/contact/build/contact
